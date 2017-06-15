@@ -1,0 +1,26 @@
+﻿  main.cpp
+c:\users\toest\documents\github\homework5\homework5\account.h(159): warning C4018: '<': signed/unsigned mismatch
+c:\users\toest\documents\github\homework5\homework5\vector.h(95): warning C4018: '<': signed/unsigned mismatch
+  c:\users\toest\documents\github\homework5\homework5\vector.h(81): note: while compiling class template member function 'void Vector<int>::push_back(T)'
+          with
+          [
+              T=int
+          ]
+  c:\users\toest\documents\github\homework5\homework5\main.cpp(65): note: see reference to function template instantiation 'void Vector<int>::push_back(T)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\toest\documents\github\homework5\homework5\main.cpp(62): note: see reference to class template instantiation 'Vector<int>' being compiled
+c:\users\toest\documents\github\homework5\homework5\vector.h(183): warning C4018: '<': signed/unsigned mismatch
+  c:\users\toest\documents\github\homework5\homework5\vector.h(182): note: while compiling class template member function 'void Vector<int>::printVector(void)'
+  c:\users\toest\documents\github\homework5\homework5\main.cpp(69): note: see reference to function template instantiation 'void Vector<int>::printVector(void)' being compiled
+c:\users\toest\documents\github\homework5\homework5\shuffle.h(16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  c:\users\toest\documents\github\homework5\homework5\main.cpp(92): note: see reference to function template instantiation 'void shuffle<int>(std::vector<int,std::allocator<_Ty>> &)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+c:\users\toest\documents\github\homework5\homework5\shuffle.h(18): warning C4018: '<': signed/unsigned mismatch
+  Homework5.vcxproj -> C:\Users\toest\Documents\GitHub\Homework5\Debug\Homework5.exe
+  Homework5.vcxproj -> C:\Users\toest\Documents\GitHub\Homework5\Debug\Homework5.pdb (Full PDB)
